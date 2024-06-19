@@ -1,61 +1,18 @@
 #-------------------------------
 # General Site Settings
-title: Lucca Donatelli
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Lucca's game development and agile production blog
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://spookalucca.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-
-#-------------------------------
-# Author Settings
-author:
-  name: Lucca Donatelli
-  bio: I'm a game designer and producer in the games industry since 2008. 
-  avatar: '/images/01.jpg'
-
-social:
-- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com"}
-
-# Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
-
-#-------------------------------
-# Hero Settings
-hero:
-  hero__title: Hey, I’m Lucca! Game designer and producer.
-  hero__description: I'm a game designer & producer. I've developed everything from AAA titles to crowdfunded indie projects. I also have a passion for agile development frameworks.
-  hero__image: '/images/01.jpg'
-
-#-------------------------------
-# Contact Settings
-contact:
-  email: f/xjvzbzpn # Add your email for contact form
-  description: Use this form to get in touch # Add a description of your form
-
-# NOTE
-# Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+baseurl: "" # The subpath of your site, e.g. /blog
+url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: # add your shortname for Disqus Comment. For example anvodstudio-demo
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
-
-
-#-------------------------------
-# Build Settings
+# Build settings
 markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll/tagging
 
-paginate: 5
+paginate: 8
 paginate_path: "/page/:num"
 
 # Pages Path
@@ -67,11 +24,6 @@ defaults:
 
 include:
   - _pages
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  /:title
 
 sass:
   sass_dir: _sass
