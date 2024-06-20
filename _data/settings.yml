@@ -2,7 +2,7 @@
 # Site Settings
 title: Spookalucca Games
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Spookalucca Games – A spookalucca haunt.
+description: Spookalucca Games – House of Haunts
 
 
 #-------------------------------
@@ -30,7 +30,7 @@ author:
 # Hero Settings
 hero:
   title: Spookalucca Games
-  description: Home of Many Haunts
+  description: Welcome to my house of haunts. 
   image: '/images/520.jpg'
 
 
