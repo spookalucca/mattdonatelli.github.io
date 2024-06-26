@@ -2,8 +2,7 @@
 # Site Settings
 title: Spookalucca Games
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Spookalucca Games – House of Haunts
-
+description: Spookalucca Games
 
 #-------------------------------
 # Navigation Settings
@@ -13,10 +12,8 @@ menu-settings:
       url: '/'
     - title: 'About'
       url: '/about/'
-    - title: 'Contact Me'
+    - title: 'Contact'
       url: '/contact/'
-    - title: 'Style Guide'
-      url: '/styleguide/'
 
 
 #-------------------------------
@@ -30,15 +27,15 @@ author:
 # Hero Settings
 hero:
   title: Spookalucca Games
-  description: Welcome to my house of haunts. 
+  description: Home of Haunting Diversions
   image: '/images/520.jpg'
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  #email: contact@spookalucca.games # Add your email for contact form
-  #description: Reach out! # Add a description of your form
+  email: contact@spookalucca.games # Add your email for contact form
+  description: Send me a spooky missive from the void! # Add a description of your form
 
 # NOTE
 # Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
@@ -47,28 +44,17 @@ contact:
 #-------------------------------
 # Footer section
 social:
-#- {icon: "fa-brands fa-x-twitter", name: "Twitter", link: "https://twitter.com"}
-#- {icon: "fa-brands fa-facebook-f", name: "Facebook", link: "https://facebook.com"}
-#- {icon: "fa-brands fa-dribbble", name: "Dribbble", link: "https://dribbble.com"}
-#- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://instagram.com"}
-#- {icon: "fa-brands fa-pinterest", name: "Pinterest", link: "https://pinterest.com"}
-#- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://youtube.com"}
-#- {icon: "fa-brands fa-github", name: "Github", link: "https://github.com"}
-#- {icon: "fa-brands fa-vimeo-v", name: "Vimeo", link: "https://vimeo.com/"}
-
-# Example of adding a new link to the footer - {icon: "fa-brands fa-mastodon", name: "Mastodon", link: "https://mastodon.social/"}
+- {icon: "fa-brands fa-paypal", name: "PayPal", link: "https://paypal.me/spookalucca"}
+- {icon: "fa-brands fa-patreon", name: "Patreon", link: "https://patreon.com/spookalucca"}
+#- {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/spookalucca.bsky.social"} # Icon wasn't working for some reason
+#- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/spookaluccagames/"} # Enable link once I start posting content
+#- {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/spookalucca"} # Enable link once I start streaming / making devlogs
+#- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://www.youtube.com/@spookalucca"} # Enable link once I start streaming / making devlogs
+#- {icon: "fa-brands fa-discord", name: "Discord", link: "https://discord.com/"} # Enable link to page describing patreon-only Discord
+#- {icon: "fa-brands fa-tiktok", name: "TikTok", link: "https://www.tiktok.com/@spookalucca"} # Enable link once I start posting content
+#- {icon: "fa-brands fa-steam", name: "Steam", link: "https://store.steampowered.com"} # Enable link to developer page once that exists
+#- {icon: "fa-brands fa-itch-io", name: "Itch.io", link: "https://spookalucca.itch.io/"} # Enable link once I have a game posted
 # Other icons can be found at https://fontawesome.com/icons
-
-
-#-------------------------------
-# Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
-
-
-#-------------------------------
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
-
 
 #-------------------------------
 # Newsletter
