@@ -30,15 +30,11 @@ hero:
   description: Home of Haunting Diversions
   image: '/images/520.jpg'
 
-
 #-------------------------------
 # Contact Settings
 contact:
-  email: # Add your email for contact form
-  description: Send me a spooky missive from the void! # Add a description of your form
-
-# NOTE
-# Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+  email: # Deprecated
+  description: Send me a spooky missive from the void! # Contact me via Mailchimp
 
 #-------------------------------
 # Footer section
@@ -58,5 +54,5 @@ social:
 #-------------------------------
 # Newsletter
 mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp-identifier: # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
+mailchimp-identifier: games.us22.list-manage.com/subscribe/post?u=89585f67cb46417ecc4dc4936&amp;id=fb960542ea&amp;f_id=0025cce1f0 # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
 mailchimp-button-text: Join
