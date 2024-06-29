@@ -12,7 +12,10 @@ $global-transition: all .2s;
 // *****************
 // Color Variables
 // *****************
-$brand-color: #ff7b7b;
+//$brand-color: #ff7b7b; // original theme color
+//$brand-color: #6E1722; // merlot blood
+//$brand-color: #08f26e; // spooky neon green
+$brand-color: #AA81D5; // light amethyst
 $dark: #09080f;
 $blue-dark: #17151E;
 $gray: #aaa;
@@ -29,24 +32,50 @@ $background-color: #0f0e15;
 // *****************
 // Typography
 // *****************
-$base-font-size: 18px;
+$base-font-size: 20px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+//$base-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+//$base-font-family: 'Noto Serif', serif, normal; // Google Noto Serif
+//$base-font-family: 'Noto Sans', sans-serif, normal; // Google Noto Serif
+//$base-font-family: 'Dosis', sans-serif, normal; // Dosis (ok at 24px)
+//$base-font-family: 'Didact Gothic', sans-serif, normal; // Didact (ok at 20px)
+$base-font-family: 'Merriweather', serif, normal; // Merriweather
 $base-line-height: 1.7;
 
 // Headings
-$heading-font-weight: 900;
-$heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+$heading-font-weight: 400;
+//$heading-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+$heading-font-family: 'Metamorphous', serif; // Gothic Header
+//$heading-font-family: 'Rubik Glitch', system-ui, normal; // Glitchy Header
+//$heading-font-family: 'Protest Revolution', sans-serif, normal; // Punky Header
+//$heading-font-family: 'Rubik Wet Paint', system-ui, normal; // Bleeding Header
+//$heading-font-family: 'Risque', serif, normal; // Pointy Playful Header
+//$heading-font-family: 'Jolly Lodger', system-ui, normal; // Groovy-Spooky Header
+//$heading-font-family: 'Emilys Candy', serif, normal; // Burtonesque Header
+//$heading-font-family: 'Amarante', serif, normal; // Tasteful Serif Header
 $heading-color: $text-color;
 
+// Smaller Header Sizes
+// /* =======================
 $font-size-h1:  36px;
 $font-size-h2:  28px;
 $font-size-h3:  24px;
 $font-size-h4:  20px;
 $font-size-h5:  18px;
 $font-size-h6:  16px;
+// ======================= */
+
+// Larger Header Sizes
+/* =======================
+$font-size-h1:  48px;
+$font-size-h2:  36px;
+$font-size-h3:  28px;
+$font-size-h4:  24px;
+$font-size-h5:  20px;
+$font-size-h6:  18px;
+======================= */
 
 $heading-line-height: 1.4em;
 $heading-letter-spacing: -1px;
