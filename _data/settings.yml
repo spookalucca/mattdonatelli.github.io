@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
 title: Spookalucca.Games
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Spookalucca Games
+logo: /images/Spookalucca_128_trans.png
+description: SpookaLucca Games
 
 #-------------------------------
 # Navigation Settings
@@ -20,7 +20,7 @@ menu-settings:
 # Author Settings
 author:
   name: Spookalucca
-  avatar: '/images/spookalucca.png'
+  avatar: '/images/Spookalucca_128_blk.png'
 
 
 #-------------------------------
@@ -28,7 +28,7 @@ author:
 hero:
   title: Spookalucca Games
   description: Home of Haunting Diversions
-  image: '/images/520.jpg'
+  image: '/images/607.jpg'
 
 #-------------------------------
 # Contact Settings
@@ -41,10 +41,10 @@ contact:
 social:
 - {icon: "fa-brands fa-paypal", name: "PayPal", link: "https://paypal.me/spookalucca"}
 - {icon: "fa-brands fa-patreon", name: "Patreon", link: "https://patreon.com/spookalucca"}
-#- {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/spookalucca.bsky.social"} # Icon wasn't working for some reason
+- {icon: "fa-brands fa-bluesky", name: "Bluesky", link: "https://bsky.app/profile/spookalucca.bsky.social"} # Icon wasn't working for some reason
 #- {icon: "fa-brands fa-instagram", name: "Instagram", link: "https://www.instagram.com/spookaluccagames/"} # Enable link once I start posting content
-#- {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/spookalucca"} # Enable link once I start streaming / making devlogs
-#- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://www.youtube.com/@spookalucca"} # Enable link once I start streaming / making devlogs
+- {icon: "fa-brands fa-twitch", name: "Twitch", link: "https://www.twitch.tv/spookalucca"} # Enable link once I start streaming / making devlogs
+- {icon: "fa-brands fa-youtube", name: "Youtube", link: "https://www.youtube.com/@spookalucca"} # Enable link once I start streaming / making devlogs
 #- {icon: "fa-brands fa-discord", name: "Discord", link: "https://discord.com/"} # Enable link to page describing patreon-only Discord
 #- {icon: "fa-brands fa-tiktok", name: "TikTok", link: "https://www.tiktok.com/@spookalucca"} # Enable link once I start posting content
 #- {icon: "fa-brands fa-steam", name: "Steam", link: "https://store.steampowered.com"} # Enable link to developer page once that exists
