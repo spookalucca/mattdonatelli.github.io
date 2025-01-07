@@ -12,28 +12,26 @@ menu-settings:
       url: '/'
     - title: 'About'
       url: '/about/'
-    - title: 'Contact'
-      url: '/contact/'
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Spookalucca
+  name: SpookaLucca
   avatar: '/images/Spookalucca_128_blk.png'
 
 
 #-------------------------------
 # Hero Settings
 hero:
-  title: Spookalucca Games
+  title: SpookaLucca Games
   description: Home of Haunting Diversions
   image: '/images/607.jpg'
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: # Deprecated
+  email: contact@spookalucca.games 
   description: Send me a spooky missive from the void! # Contact me via Mailchimp
 
 #-------------------------------
@@ -53,6 +51,6 @@ social:
 
 #-------------------------------
 # Newsletter
-mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp: # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
 mailchimp-identifier: games.us22.list-manage.com/subscribe/post?u=89585f67cb46417ecc4dc4936&amp;id=fb960542ea&amp;f_id=0025cce1f0 # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
 mailchimp-button-text: Join
